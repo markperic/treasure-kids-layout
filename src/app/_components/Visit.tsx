@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform, type MotionValue } from "motion/react"
 import { useRef } from "react";
 
 const DETAILS = [
-  ["Find us", "23 Ipswich Street, Riverview QLD 4303"],
+  ["Find us", "12 Park Avenue, Meadowbank QLD 4000"],
   ["Open", "Monday to Friday, 6:30am – 6:00pm"],
   ["Tours", "At a time that suits you"],
   ["Enquiries", "Join the waitlist any time"],

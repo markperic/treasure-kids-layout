@@ -18,7 +18,7 @@ const clockFormat = new Intl.DateTimeFormat("en-AU", {
   hour12: false,
 });
 
-function RiverviewClock() {
+function LocationClock() {
   const [time, setTime] = useState("");
 
   useEffect(() => {
@@ -41,9 +41,9 @@ function RiverviewClock() {
 export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 flex h-[52px] items-center justify-between border-b border-ink/80 bg-cream px-4 sm:px-5">
-      <a href="#top" aria-label="Treasure Early Learning home" className="shrink-0">
+      <a href="#top" aria-label="daycare Early Learning home" className="shrink-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/brand/treasure-wordmark.svg" alt="Treasure" className="h-6 w-auto sm:h-7" />
+        <img src="/brand/daycare-wordmark.svg" alt="daycare" className="h-6 w-auto sm:h-7" />
       </a>
 
       <nav className="absolute left-1/2 hidden -translate-x-1/2 gap-7 text-[15px] font-bold lg:flex">
@@ -57,11 +57,11 @@ export default function Header() {
       <div className="flex items-center gap-4 text-[13px] font-bold">
         <span className="hidden items-center gap-1.5 md:flex">
           <ClockIcon />
-          <RiverviewClock />
+          <LocationClock />
         </span>
         <span className="hidden items-center gap-1.5 md:flex">
           <PinIcon />
-          Riverview, QLD
+          Meadowbank, QLD
         </span>
         <a
           href="#tour"

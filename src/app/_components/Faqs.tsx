@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: "Can we visit before enrolling?",
-    a: "Yes, we encourage it. Book a tour at a time that suits you and come and see Treasure for yourself.",
+    a: "Yes, we encourage it. Book a tour at a time that suits you and come and see daycare for yourself.",
   },
 ];
 

@@ -20,7 +20,7 @@ export default function Footer() {
         </nav>
         <div className="text-[15px] leading-relaxed">
           <p>
-            Treasure Early Learning is a childcare and early learning centre in Riverview, where
+            daycare Early Learning is a childcare and early learning centre in Meadowbank, where
             your child&apos;s safety comes first.
           </p>
           <a
@@ -33,8 +33,8 @@ export default function Footer() {
       </div>
 
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-ink px-4 py-3 text-[12px] font-bold sm:px-5">
-        <span>© 2026 Treasure Early Learning</span>
-        <span>23 Ipswich Street, Riverview QLD 4303</span>
+        <span>© 2026 daycare Early Learning</span>
+        <span>12 Park Avenue, Meadowbank QLD 4000</span>
         <span className="flex gap-4">
           <a href="#" className="hover:text-coral">Privacy</a>
           <a href="#" className="hover:text-coral">Child Safety Commitment</a>

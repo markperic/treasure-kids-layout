@@ -17,7 +17,7 @@ import Flower, { CORAL_INNER_RATIO } from "./Flower";
 const FILL_END = 0.45;
 
 const ROWS: [string, React.ReactNode][] = [
-  ["23 Ipswich Street, Riverview QLD 4303", "Treasure Early Learning"],
+  ["12 Park Avenue, Meadowbank QLD 4000", "daycare Early Learning"],
   [
     "Now welcoming new families",
     <a key="tour" href="#tour" className="underline-offset-4 hover:underline">
@@ -80,7 +80,7 @@ export default function Hero() {
       <div className="sticky top-0 flex h-[100svh] flex-col overflow-hidden pt-[52px]">
         <div className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-cream px-4 py-[3vh] sm:px-5">
           <Image
-            src="/images/daycare1.jpg"
+            src="/images/adult-toddlers-alphabet-blocks.jpg"
             alt=""
             fill
             preload
@@ -127,7 +127,7 @@ export default function Hero() {
 
         <div className="relative shrink-0 basis-[22%] overflow-hidden bg-ink px-4 pt-5 text-cream sm:px-5 sm:pt-6">
           <h1 className="max-w-[56ch] text-[clamp(1.2rem,2.5vw,2.6rem)] font-normal leading-[1.2]">
-            <span className="font-title font-bold">Where every child is safe, seen and treasured.</span>{" "}
+            <span className="font-title font-bold">Where every child is safe, seen and cared for.</span>{" "}
             <span className="font-semibold text-cream/75">
               We give your child the secure, loving start they deserve, and give you the peace of
               mind to walk out the door.
@@ -143,7 +143,7 @@ export default function Hero() {
           <span className="max-w-[14ch]">
             Where every child is <span className="text-sun">safe</span>,{" "}
             <span className="text-cream">seen</span> and{" "}
-            <span className="text-grape">treasured</span>
+            <span className="text-grape">cared for</span>
           </span>
         </motion.p>
       </div>
@@ -160,7 +160,7 @@ function Marquee() {
             key={copy}
             className="flex shrink-0 items-center whitespace-nowrap font-display font-bold text-[clamp(2.2rem,8vh,6.5rem)] leading-[1.35] tracking-[-0.01em]"
           >
-            <span className="px-[0.12em]">treasure</span>
+            <span className="px-[0.12em]">daycare</span>
             <Sparkle />
             <span className="px-[0.12em]">early learning</span>
             <Sparkle />

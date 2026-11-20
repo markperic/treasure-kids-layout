@@ -9,9 +9,9 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Treasure Early Learning | Layout Showcase",
+  title: "daycare Early Learning | Layout Showcase",
   description:
-    "A childcare and early-learning landing page layout, built for Treasure Early Learning and kept here as a reusable Capote Design starting point.",
+    "A childcare and early-learning landing page layout, kept here as a reusable Capote Design starting point.",
   robots: { index: false, follow: false },
 };
 

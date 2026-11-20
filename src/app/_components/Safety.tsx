@@ -7,19 +7,19 @@ const PILLARS = [
   {
     title: "A secure front door",
     body: "Only families and approved people come and go. Every visitor signs in and out, and we check ID for anyone we don't know.",
-    image: "/images/daycare1.jpg",
-    alt: "An educator playing with a group of children on a classroom rug",
+    image: "/images/adult-toddlers-alphabet-blocks.jpg",
+    alt: "An educator playing with alphabet blocks with two toddlers",
   },
   {
     title: "Only the right people collect your child",
     body: "You tell us who is authorised to pick up. If someone isn't on the list, your child doesn't leave with them. No exceptions.",
-    image: "/images/magnific_daycare-centre-with-polynesian-children-aged-1_jUownQFLD0.jpg",
-    alt: "An educator hugging a group of smiling toddlers",
+    image: "/images/circle-time-teacher.jpg",
+    alt: "An educator leading circle time with a small group of children",
   },
   {
     title: "Educators you can trust",
     body: "Every team member holds a current Blue Card, police and reference checks, and first aid, CPR and anaphylaxis training.",
-    image: "/images/magnific_daycare-centre-with-polynesian-children-aged-1_VX7B5ZbMMU.jpg",
+    image: "/images/teacher-floor-with-kids.jpg",
     alt: "An educator sitting on the floor with toddlers gathered around her",
   },
   {
@@ -31,8 +31,8 @@ const PILLARS = [
   {
     title: "Child-safe by culture",
     body: "We follow the National Child Safe Principles. Our team is trained to recognise and report concerns, and it's easy for families and children to speak up.",
-    image: "/images/magnific_polynesian-and-white-children-aged-1_dt4mUnyXSL.jpg",
-    alt: "A group of young children sharing a big hug",
+    image: "/images/siblings-hug-field.jpg",
+    alt: "Two young children sharing a big hug outdoors",
   },
   {
     title: "Privacy for your family",
@@ -52,7 +52,7 @@ export default function Safety() {
         <h2 className="sr-only">Safe and secure</h2>
         <p className="max-w-[38rem] text-[clamp(1.5rem,2.6vw,2.6rem)] leading-[1.22]">
           Your child&apos;s safety is where we start, not something we add on. We believe you
-          shouldn&apos;t have to wonder, so here&apos;s what keeps children safe at Treasure, in plain
+          shouldn&apos;t have to wonder, so here&apos;s what keeps children safe at daycare, in plain
           language.
         </p>
       </div>

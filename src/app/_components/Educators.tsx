@@ -31,7 +31,7 @@ export default function Educators() {
       </div>
       <div className="grid gap-6 px-4 pb-12 pt-10 sm:px-5 lg:grid-cols-[1.1fr_1fr] lg:items-end">
         <h2 className="font-title font-bold text-[clamp(2.4rem,5.4vw,5.6rem)] lowercase leading-[1]">
-          The people who make Treasure shine
+          The people who make daycare shine
         </h2>
         <p className="max-w-[36rem] text-[clamp(1.05rem,1.4vw,1.3rem)] leading-relaxed lg:justify-self-end">
           Our educators are qualified, caring and passionate about early childhood, and they keep
